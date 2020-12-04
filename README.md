@@ -51,4 +51,7 @@ THE BASICS
 
 
 MODERN JavaScript CRASH COURSE
+- ECMAScript and TC39
+- variables and block scopes
+- Arrow function
 - 
