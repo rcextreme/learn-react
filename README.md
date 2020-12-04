@@ -52,6 +52,20 @@ THE BASICS
 
 MODERN JavaScript CRASH COURSE
 - ECMAScript and TC39
-- variables and block scopes
-- Arrow function
-- 
+- Arrow functions
+- Classes
+- Promises and Async/Await
+
+THE Github CARDS GAME
+- What are we building
+  - Use Github's public API.  We'll use class components.  We'll create a page where we can add user handles.
+
+- React Class Components
+  - Build the general view of the App and and do some plain formatting with CSS
+
+- Styling React components
+  - learn an alterative way to style components inline with JavaScript instead of a global CSS area
+
+- Working with Data
+  - api.github.com/users/gaeron
+  - get the data from a test user in github and use it to display in your project
