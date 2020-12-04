@@ -56,7 +56,8 @@ MODERN JavaScript CRASH COURSE
 - Classes
 - Promises and Async/Await
 
-THE Github CARDS GAME
+
+THE Github CARDS APP
 - What are we building
   - Use Github's public API.  We'll use class components.  We'll create a page where we can add user handles.
 
