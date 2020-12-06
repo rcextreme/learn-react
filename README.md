@@ -68,5 +68,29 @@ THE Github CARDS APP
   - learn an alterative way to style components inline with JavaScript instead of a global CSS area
 
 - Working with Data
-  - api.github.com/users/gaeron
-  - get the data from a test user in github and use it to display in your project
+  - github API url to get data. api.github.com/users/gaeron
+  - https://jscomplete.com/playground/rgs2.3
+  - get the data from a test user in github and use it to display in your project. Save into testData object.
+  - create the 'CardList' Component
+  - the the ".map" javascript function of arrays to map all cards
+
+- Initializing and Reading the State object
+  - Create a simple form with a button that will be used to submit a user name.
+  - We'll need to track state to fully implement input capability into the form so we begin setting up the react function to track state
+  - React by default tracks state of all components in an object called 'state'
+  - discussed a class constructor and the super function.
+
+- Taking Input from the user
+  - We define a state within the Form component and tract the userName within it.
+  - Then in form element we leverage the react 'setState' function to read the input value from the Dom and pass it to the react state.
+  - We show that we indeed can read the input by displaying it to the console
+
+- Working with Ajax calls
+  - Now We're ready to interact with the github API to download the data dynamically.
+  - Instead of using the browser's native 'fetch' call we'll use the simpler 'axios' that's made available within the playground
+  - Once the data is fetched we'll pass it from the form component up to the App via a function call that will chnage the state of the App component
+  - Homework:
+    - Add error handling as shown in his book jscomplete.com/react-beyond-basics
+    - Convert all componets to functions instead of Classes
+    - Track state in an individual component
+  - Final code is in: jsdrops.com/rgs2.7
