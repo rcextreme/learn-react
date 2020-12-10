@@ -94,3 +94,19 @@ THE Github CARDS APP
     - Convert all componets to functions instead of Classes
     - Track state in an individual component
   - Final code is in: jsdrops.com/rgs2.7
+
+
+
+  THE STAR MATCH GAME
+  - What are we building
+    - https://jscomplete.com/react-games/star-match
+    - https://jscomplete.com/playground/rgs3.1
+  - Working with static markup
+    - create a function to display the stars
+    - avoid for/while loops in react if possible.  Use map/filter/reduce instead
+    - use the random function to change number of stars
+    - set the stars as a state element
+  - Extracting components for reuse
+    - What divs do we want to turn into a component, a react function
+    - Convert button generation into a component
+    - JavaScript closures.
