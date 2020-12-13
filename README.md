@@ -110,3 +110,33 @@ THE Github CARDS APP
     - What divs do we want to turn into a component, a react function
     - Convert button generation into a component
     - JavaScript closures.
+ - View Functions State => UI
+    - Create the logic to change the color of the numbers based on their sate.  Use simulation data instead of actually reading from the buttons.
+    - It's often easier to define the UI logic first.
+    - create a function to track state of number and pass it to the Play
+
+- Behavior Functions : State => New State
+  - Write code for the behavior that will happen once a number is actally clicked.
+  - create a onNumberCLick function. This function needs to read the state and be able to change it.
+  - Use .filter to re-add unselect a button that had been clicked before that was a wrong choice.
+  - We now have a playable game
+
+- Resetting the state
+  - Display a 'playAgain'  button once game is over and code to signal that the game is over.  Performed this by just checking length of the available items array
+  - The general flow of the code for a component follows this order:
+     first:  defining the state (variables)
+     second: computations based on the state
+     third:  Display the UI based on all the state.
+ - add a reset function to clear and reset all counters.
+
+- Using Side Effects Hooks
+  - Implement the timer feature.
+  - useEffect() - This is a react hooks function as useEffect is.  It automatically triggers anytime there's a state change to the component housing it.
+  - concept of side effect
+  - setTimeout().
+  - React re-renders every time the state changes
+  - read: jscomplete.com/rgs-hoolks to learn how to fix problem with clearTimeout
+  - set game to done once timer runs out or display complete if player selected all correct answers.
+
+- Unmounting and remounting componets
+  - 
