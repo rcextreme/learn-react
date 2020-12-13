@@ -151,3 +151,23 @@ THE Github CARDS APP
     - How to group everything together that's about managing state
     - How to use the key attribute to unmount a component and remount again to clean up side effects and give it a brand new state.
     - And leave the main element to make computations and display the UI description to reflect the state
+
+
+SETTING UP A DEVELOPMENT ENVIRONMENT
+- Introduction
+  - Multiple Tools : APIS , Configurations, Releases
+  - Multiple environments: Dev, Prod, Test
+  - Different renders: DOM, SSR
+
+- Create React APP
+  - "create_react_app" is just an npm package
+
+- Installing Environment Dependencies.
+
+- Configuring your own Environment
+
+- Reactful
+
+- Structuring Component Files
+
+- What's next
