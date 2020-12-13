@@ -138,5 +138,16 @@ THE Github CARDS APP
   - read: jscomplete.com/rgs-hoolks to learn how to fix problem with clearTimeout
   - set game to done once timer runs out or display complete if player selected all correct answers.
 
-- Unmounting and remounting componets
-  - 
+- Un-mounting and remounting components
+  - In order to reset all component states in one shot we'll have react render a new version of the game each time.
+  - This is achieved by having the main component as Game and having the StarMatch component, that is rendered ReactDOM.render, display the call to game with an individual key.  This has the effect of mounting a new instance of Game each time the project is run.
+
+- Using custom Hooks
+  - We break up the game component into smaller pieces by separating the state and the management of state into its own component.
+  - The things we learned in this project were:
+    - How we Initialize state
+    - How to Initialize side effects
+    - how to define custom Hooks
+    - How to group everything together that's about managing state
+    - How to use the key attribute to unmount a component and remount again to clean up side effects and give it a brand new state.
+    - And leave the main element to make computations and display the UI description to reflect the state
