@@ -1,0 +1,19 @@
+1. Login to Codepen
+2. Create a new pen
+3. Set Babel as interpreter and add the React package
+  - Select the settings icon in the JS pane
+  - Set Babel as the JavaScript pre-processor
+  - In AddPackages install React
+  - In Add External Scripts enter the following these two in individual lines
+    - https://unpkg.com/react/umd/react.development.js
+    - https://unpkg.com/react-dom/umd/react-dom.development.js
+  -  Now you're ready to write code.
+  - In the HTML pane create the root div
+    <div id="root"></div>
+  - In the JS pane enter your hello HelloWorld
+        ReactDOM.render(
+          <h1>Hello, World!</h1>, document.getElementById('root')
+        );
+  - Second option is to view the Hellow World Tick pen
+    - This creates the default HelloWorld program with the HTML and JS pages.
+    - The code shows a basic function and the basic rendering into the the ReactDOM
